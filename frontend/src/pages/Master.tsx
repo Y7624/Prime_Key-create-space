@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import resMethod from "../tools/resMethod.ts";
 import TextType from "../computed/reactbits/TextType.tsx";
 import DecryptedText from "../computed/reactbits/DecryptedText.tsx";
@@ -109,7 +110,7 @@ export default function Master() {
               </h2>
             </div>
             <p className="text-gray-600 mb-4">Now Job: Full stack of remote</p>
-            <p className="text-gray-600 mb-4">Base: California USA</p>
+            <p className="text-gray-600 mb-4">Base: China shanghai</p>
             <p className="text-gray-600 mb-4">Loaction: Sichuan Chengdu</p>
           </div>
 
